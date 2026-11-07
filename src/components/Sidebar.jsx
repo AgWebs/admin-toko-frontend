@@ -8,14 +8,16 @@ export default function Sidebar({ sidebarOpen, setSidebarOpen }) {
         {/* Navigasi Link ke halaman dashboard */} 
         <Link to="/admin/dashboard" className="hover:bg-gray-200 p-2 rounded"> 
           Dashboard 
-        </Link> 
+        </Link>
+
+        <Link to="/admin/products" className="hover:bg-gray-200 p-2 rounded"> 
+          Product 
+        </Link>
+
         <Link to="/admin/about" className="hover:bg-gray-200 p-2 rounded"> 
           About 
         </Link> 
 
-        <Link to="/admin/info" className="hover:bg-gray-200 p-2 rounded"> 
-          Info 
-        </Link>
       </nav> 
     </div> 
   ); 

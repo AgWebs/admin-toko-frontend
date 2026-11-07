@@ -15,7 +15,6 @@ export default function ProductCard ({p}){
             > */}
 
             <Link 
-            //update di bagian ini dengan menambahkan state = {p} untuk mengirim objek product ke halaman detail
               to={`/product/${p.slug}`}  state = { p }
               className="text-blue-600 hover:underline mt-2 block" 
             >
